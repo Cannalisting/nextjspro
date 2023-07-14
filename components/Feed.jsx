@@ -62,7 +62,7 @@ export const Feed = () => {
   const handleTagClick = (tagName) => {
     setSearchText(tagName);
     const searchResult = filterPrompts(tagName);
-    setSearchedResults(searchResults);
+    setSearchedResults(searchResult);
   };
 
   return (
